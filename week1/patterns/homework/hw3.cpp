@@ -1,28 +1,21 @@
 /*
 
-1
-1 2
-1  3
-1   4
-12345
+
+numeric palidrome equilateral pyramid 
+    
 
 */
 
-
 #include<iostream>
 using namespace std;
+
 int main(){
     int n;
     cin>>n;
-
     for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            if(j==0 || i==n-1 ){
-                cout<<j+1;
-
-            }
-            else if(i>0 && j==i+1){
-                cout<<j;
+        for(int j=0;j<(2*n-1);j++){
+            if(j>=((2*n)/2)-i && j<=((2*n)/2)+i ){
+                cout<<(i+1)-j;
             }
             else{
                 cout<<" ";
