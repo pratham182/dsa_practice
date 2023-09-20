@@ -1,5 +1,5 @@
 //roate an array k times 
-
+//same as previous but use array for multiple  shift
 #include<iostream>
 using namespace std;
 int main()
@@ -21,7 +21,7 @@ for(int i=0;i<times;i++){
 int temp=arr[n-1];
 for(int j=n-2;j>=0;j--){
     //right shift 
-    arr[j+1]=arr[j];
+    arr[j+1]=arr[j]; 
 }
 
 arr[0]=temp;

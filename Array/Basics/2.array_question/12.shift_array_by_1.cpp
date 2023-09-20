@@ -1,3 +1,9 @@
+//shift an array 1 times
+//for eg == 1 2 3 4 5 
+//output == 5 1 2 3 4
+
+//first store last element in temp and shift all element left to right  
+
 #include<iostream>
 using namespace std;
 int main()
@@ -25,12 +31,3 @@ for(int i=0;i<n;i++){
 
 }
 
-// 5
-// 1
-// 3
-// 5
-// 7
-// 9
-// Enter how many times 
-// 2
-// 79135

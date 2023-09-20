@@ -13,6 +13,9 @@ int main(){
 
     int arr[n];
   // approach ist
+
+
+  //count total no of 0 and 1's in an array 
    int count0=0;
    int count1=0;
     for(int i=0;i<n;i++){
@@ -24,6 +27,9 @@ int main(){
         }
 
     }
+
+
+    //add it in an array 
     int x=0;
     int ele=0;
     while(x<n){
@@ -55,10 +61,5 @@ for(int i=0;i<n;i++){
 
 //sorting ==n log n
 
-
-
-
-
- 
      
 }
