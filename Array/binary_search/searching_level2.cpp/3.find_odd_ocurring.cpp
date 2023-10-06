@@ -28,7 +28,7 @@ if(nums.size()==1){
             }}
 
             }
-
+             //odd case 
             else{
                 if(mid>0 && nums[mid-1]==nums[mid]){
                     start=mid+1;
