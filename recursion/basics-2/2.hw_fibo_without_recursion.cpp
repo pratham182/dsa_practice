@@ -1,0 +1,1 @@
+//hw fibonacci series without recrusion 

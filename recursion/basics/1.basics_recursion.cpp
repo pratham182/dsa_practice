@@ -15,7 +15,7 @@ if(step==0){
 
 
 
-//recrsiove relation
+//recursive relation
 bool status=walk(--step);
 
 cout<<status<<endl;
