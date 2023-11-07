@@ -6,7 +6,9 @@ using namespace std;
 
  int getLastMoment(int n, vector<int>& left, vector<int>& right) {
 
-    //logic is that left ka min consider kiya hai jo jyada time lega or right ka max jo jyda time lega left aane meii
+    //logic is that left ka min consider kiya hai jo jyada 
+    //time lega or right ka max jo jyda time lega left aane meii
+
         //find max and min
         //left(max consider)
         int left_max=INT_MIN;
