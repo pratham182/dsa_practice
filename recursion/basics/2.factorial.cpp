@@ -7,27 +7,21 @@
 using namespace std;
 
 int factorial(int n){
+if(n==1){
+    return 1;
+}
 
-    //base case
-    if(n==1  ||n==0){
-        return 1;
-    }
+if(n==0){
+    return 1;
+}
 
-
-
-//recrsive realtion
-    int ans= n*factorial(n-1);
-
-    //processing 
-   cout<<ans<<endl;
-    return ans;
-
+return n*factorial(n-1);
 
 }
+
 int main()
 {
 
-    int n=5;
-    cout<<factorial(n);
+cout<<factorial(0);
 
 }
