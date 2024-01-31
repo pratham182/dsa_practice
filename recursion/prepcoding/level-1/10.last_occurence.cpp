@@ -4,7 +4,7 @@
 using namespace std;
 
 int last_occurence(int arr[],int index,int no){
-   //base case
+
     if(index==5){
         return -1;
     }
@@ -20,6 +20,8 @@ int last_occurence(int arr[],int index,int no){
     
 
    }
+
+      
 }
 int main()
 {
